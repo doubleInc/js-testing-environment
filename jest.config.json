@@ -1,0 +1,15 @@
+{
+  "reporters": [
+    "default",
+    [
+      "jest-html-reporters",
+      {
+        "publicPath": "./html-report",
+        "filename": "index.html",
+        "expand": true
+      }
+    ]
+  ],
+  "watchPathIgnorePatterns": ["<rootDir>/node_modules/"],
+  "testRegex": "((\\.|/*.)(test))\\.js?$"
+}
